@@ -44,7 +44,7 @@ summary.lm(MYCHEST)
 
 
 
-
+We see that our residual standard error is 4.939 and our R squared is 0.7869. Comparing our residual standard error of 4.939 to the first one of 5.376, this one is better because it is smaller. Chest is higher in ranking than neck.For R squared values since 0.7869 is bigger than 0.7476, it shows chest is better in both residual standard error and r squared.
 
 
 
