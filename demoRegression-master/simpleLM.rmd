@@ -71,6 +71,9 @@ summary.lm(MYWEIGHT)
 
 
 
+Looking at the plot we see the dots follow alongside the line a bit. We see the residual standard error is 5.432 and the R squared is 0.7423. In our ranking this may go in third place since the residual standard error is not the highest (bad) or the lowest (good).
+
+
 
 
 
