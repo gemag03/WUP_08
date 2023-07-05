@@ -85,6 +85,13 @@ summary.lm(MYAGE)
 
 
 
+Looking at our residual standard error of 7.511 we can already tell this will have a low ranking. The r squared value is 0.5073 and it supports its low ranking because it is just as low as 0.5321 in the headwth.
+
+
+
+
+
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
