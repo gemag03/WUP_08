@@ -34,6 +34,20 @@ The bears neck is 20 inches around which helps predict about 57 in length.The x 
 
 
 
+```{r}
+MYCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(MYCHEST)
+summary.lm(MYCHEST)
+```
+
+
+
+
+
+
+
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
