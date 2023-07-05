@@ -48,6 +48,21 @@ We see that our residual standard error is 4.939 and our R squared is 0.7869. Co
 
 
 
+```{r}
+MYHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(MYHEADWTH)
+summary.lm(MYHEADWTH)
+```
+
+
+
+
+
+
+
+
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
