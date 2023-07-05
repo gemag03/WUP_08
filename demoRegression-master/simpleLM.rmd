@@ -99,6 +99,10 @@ summary.lm(MYHEADLEN)
 
 
 
+Our residual standard error is 4.235 and it makes this to be ranked first place because 4.939 was the smallest but now 4.235 is the smallest. The r squared value is the highest and helps support it being our top ranked.
+
+
+
 
 
 
