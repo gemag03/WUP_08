@@ -76,6 +76,14 @@ Looking at the plot we see the dots follow alongside the line a bit. We see the 
 
 
 
+```{r}
+MYAGE <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(MYAGE)
+summary.lm(MYAGE)
+```
+
+
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
