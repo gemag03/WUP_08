@@ -57,7 +57,7 @@ summary.lm(MYHEADWTH)
 
 
 
-
+By looking at it, the way it is spread out already gives it a bad ranking. Our residual standard error is 7.32 and our R squared is 0.5321. This one is at the bottom of our ranking because the standard error is high which is bad and the R squared is too small.
 
 
 
