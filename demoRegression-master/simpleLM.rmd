@@ -62,6 +62,17 @@ By looking at it, the way it is spread out already gives it a bad ranking. Our r
 
 
 
+```{r}
+MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(MYWEIGHT)
+summary.lm(MYWEIGHT)
+```
+
+
+
+
+
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
