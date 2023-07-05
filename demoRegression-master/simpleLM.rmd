@@ -90,6 +90,15 @@ Looking at our residual standard error of 7.511 we can already tell this will ha
 
 
 
+```{r}
+MYHEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(MYHEADLEN)
+summary.lm(MYHEADLEN)
+```
+
+
+
 
 
 
