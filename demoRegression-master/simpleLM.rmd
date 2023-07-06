@@ -105,6 +105,21 @@ Our residual standard error is 4.235 and it makes this to be ranked first place 
 
 
 
-
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+
+
+
+#Conclusion
+
+
+Headlen : residual standard error : 4.235 , R squared value:0.8434  
+Chest : residual standard error : 4.939 , R squared value: 0.7869  
+Neck :residual standard error : 5.376  , R squared value: 0.7524  
+Weight :residual standard error : 5.432 , R squared value: 0.7423  
+Age : residual standard error : 7.32 , R squared value: 0.5321  
+Headwth : residual standard error : 7.511 , R squared value: 0.5073  
+
+
+Looking at our residual standard error, we know the one with the lowest is the highest ranked one. Which is why headlen is number one. It also has to have the highest number in the r squared value. Which as we can see, also proves it to be number 1. I ranked each num/int by comparing each one to each others residual standard error and r squared value.
+
 
